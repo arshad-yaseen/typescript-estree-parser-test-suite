@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+REPO_OWNER="arshad-yaseen"
+REPO_NAME="typescript-estree-parser-test-suite"
+BRANCH="main"
+FOLDER_PATH="./"
+DEST_DIR="./"
+
+mkdir -p "$DEST_DIR"
+
+curl -sSL "https://codeload.github.com" | tar -xz --strip-components=2 "$REPO_NAME-$BRANCH/$FOLDER_PATH" -C "$DEST_DIR"
