@@ -1,1 +1,3 @@
-a = { set null(b) { c = b } }
+a = ({set null (b) {
+  c = b;
+}});

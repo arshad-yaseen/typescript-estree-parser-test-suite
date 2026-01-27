@@ -1,3 +1,3 @@
 function a() {
-    new new.target;
+  new (new.target);
 }
