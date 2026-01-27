@@ -1,0 +1,30 @@
+{
+  "program": {
+    "type": "Program",
+    "body": [
+      {
+        "type": "ExpressionStatement",
+        "expression": {
+          "type": "ImportExpression",
+          "source": {
+            "type": "Identifier",
+            "name": "wow",
+            "start": 7,
+            "end": 10
+          },
+          "options": null,
+          "phase": null,
+          "start": 0,
+          "end": 11
+        },
+        "start": 0,
+        "end": 11
+      }
+    ],
+    "sourceType": "script",
+    "start": 0,
+    "end": 12
+  },
+  "errors": [],
+  "comments": []
+}

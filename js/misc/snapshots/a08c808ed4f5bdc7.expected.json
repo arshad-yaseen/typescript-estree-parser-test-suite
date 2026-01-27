@@ -1,0 +1,39 @@
+{
+  "program": {
+    "type": "Program",
+    "body": [
+      {
+        "type": "ImportDeclaration",
+        "specifiers": [
+          {
+            "type": "ImportDefaultSpecifier",
+            "local": {
+              "type": "Identifier",
+              "name": "defer",
+              "start": 7,
+              "end": 12
+            },
+            "start": 7,
+            "end": 12
+          }
+        ],
+        "source": {
+          "type": "Literal",
+          "value": "wow",
+          "raw": "\"wow\"",
+          "start": 18,
+          "end": 23
+        },
+        "phase": null,
+        "attributes": [],
+        "start": 0,
+        "end": 23
+      }
+    ],
+    "sourceType": "module",
+    "start": 0,
+    "end": 24
+  },
+  "errors": [],
+  "comments": []
+}

@@ -1,0 +1,25 @@
+{
+  "program": {
+    "type": "Program",
+    "body": [],
+    "sourceType": "script",
+    "start": 0,
+    "end": 0
+  },
+  "errors": [
+    {
+      "severity": "Error",
+      "message": "Unterminated string",
+      "labels": [
+        {
+          "message": null,
+          "start": 41,
+          "end": 43
+        }
+      ],
+      "helpMessage": null,
+      "codeframe": "\n  x Unterminated string\n   ,-[js/misc/6637c562de90727b.js:2:24]\n 1 | function cool() {\n 2 |   const randomNumber = \"\n   :                        ^^\n 3 |   function cool() {\n 4 | \n   `----\n"
+    }
+  ],
+  "comments": []
+}

@@ -1,0 +1,25 @@
+{
+  "program": {
+    "type": "Program",
+    "body": [],
+    "sourceType": "module",
+    "start": 0,
+    "end": 0
+  },
+  "errors": [
+    {
+      "severity": "Error",
+      "message": "Using declarations cannot be exported directly.",
+      "labels": [
+        {
+          "message": null,
+          "start": 7,
+          "end": 17
+        }
+      ],
+      "helpMessage": "Remove the `export` here and add `export { nice }` as a separate statement to export the declaration",
+      "codeframe": "\n  x Using declarations cannot be exported directly.\n   ,-[js/misc/d2eca2462424f255.module.js:1:8]\n 1 | export using nice = Bun;\n   :        ^^^^^^^^^^\n   `----\n  help: Remove the `export` here and add `export { nice }` as a separate\n        statement to export the declaration\n"
+    }
+  ],
+  "comments": []
+}

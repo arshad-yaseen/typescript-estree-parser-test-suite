@@ -1,0 +1,39 @@
+{
+  "program": {
+    "type": "Program",
+    "body": [
+      {
+        "type": "ImportDeclaration",
+        "specifiers": [
+          {
+            "type": "ImportDefaultSpecifier",
+            "local": {
+              "type": "Identifier",
+              "name": "nide",
+              "start": 7,
+              "end": 11
+            },
+            "start": 7,
+            "end": 11
+          }
+        ],
+        "source": {
+          "type": "Literal",
+          "value": "wow",
+          "raw": "\"wow\"",
+          "start": 17,
+          "end": 22
+        },
+        "phase": null,
+        "attributes": [],
+        "start": 0,
+        "end": 23
+      }
+    ],
+    "sourceType": "script",
+    "start": 0,
+    "end": 24
+  },
+  "errors": [],
+  "comments": []
+}

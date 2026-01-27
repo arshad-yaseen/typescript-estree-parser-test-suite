@@ -1,0 +1,25 @@
+{
+  "program": {
+    "type": "Program",
+    "body": [],
+    "sourceType": "script",
+    "start": 0,
+    "end": 0
+  },
+  "errors": [
+    {
+      "severity": "Error",
+      "message": "Expected a semicolon or an implicit semicolon after a statement, but found none",
+      "labels": [
+        {
+          "message": null,
+          "start": 21,
+          "end": 21
+        }
+      ],
+      "helpMessage": "Try inserting a semicolon here",
+      "codeframe": "\n  x Expected a semicolon or an implicit semicolon after a statement, but found\n  | none\n   ,-[js/misc/553b6563335d0228.js:2:3]\n 1 | const nice = async\n 2 | () => {}\n   :   ^\n   `----\n  help: Try inserting a semicolon here\n"
+    }
+  ],
+  "comments": []
+}
